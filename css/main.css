@@ -1997,6 +1997,24 @@ body.menu-is-open {
   }
 
 }
+/* Profile picture */
+.profile-container {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
+  border-radius: 1pc;
+
+}
+
+.profile-container img {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px;
+  border-radius: 50%; /* Makes the image circular */
+  border: 2px solid #fff; /* Optional: Add a border around the image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 
 /* ===================================================================
